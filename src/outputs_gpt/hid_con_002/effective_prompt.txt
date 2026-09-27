@@ -1,0 +1,51 @@
+Generate a clean front-view reference image for single-image Image-to-Mesh / Image-to-3D.
+
+【Subject】
+原始描述：生成一个可拆卸的拼接笔筒：由两个半圆壳通过燕尾槽拼合，不得使用胶水；拼合后为稳定圆筒，外径不超过85毫米。
+英文参考：An FDM-printable constrained model that must satisfy every stated dimension, assembly, and support requirement.
+类别：constrained
+用途：配合结构挑战
+
+Faithfully preserve the requested subject, action, pose, shape, key props, and distinctive details.
+Represent it as a real three-dimensional sculpture, figurine, maquette, or product model suitable for physical production, not a scene photo or 2D illustration.
+
+【Composition】
+- One primary 3D object only.
+- Front view, centered, camera approximately at object mid-height.
+- Entire object fully visible with no cropping.
+- Let the object fill most of the frame with minimal empty space.
+- Clear outer silhouette and clearly separated major structural regions.
+- Strong sense of real volume and depth; avoid flat illustration appearance.
+- Avoid extreme perspective, top-down view, low-angle view, or fisheye distortion.
+- Do not add unrelated characters, animals, props, duplicated objects, or alternative designs.
+- Thin structures such as wires, rods, ropes, hair, spikes, or sheets should be moderately thickened when necessary for reliable 3D reconstruction.
+
+【Environment】
+Environmental words such as ocean, beach, sky, forest, road, room, street, mountains, river, or landscape should NOT become a full scene.
+Keep only the main object. If an environmental element is essential for recognizability or stability, reduce it to a small connected support/base.
+
+【Geometry / Printability】
+- No floating, hovering, or disconnected parts; props must be attached, held, or supported.
+- Provide a clear stable ground-contact area; add only a small connected base/support if necessary.
+- The object should appear as a closed, watertight solid without open shells or fractured surfaces.
+- Strictly preserve explicit dimensions and proportion constraints from the description.
+- Unless the description explicitly requires separate parts, keep the result as one unified object.
+- Do not add contents or accessories that are not requested.
+- Reveal internal structure only when the prompt explicitly asks for assembly, cutaway, exploded, transparent-shell, or visible internal components.
+
+【Texture / Material】
+- Preserve clear intrinsic base colors and distinct semantic/material regions.
+- Use clean, coherent, moderately sized surface patterns suitable for UV texture projection.
+- Prefer diffuse or moderately rough materials.
+- Avoid strong gloss, mirror reflections, transparency, glass, holographic materials, or metallic appearance unless explicitly requested.
+- Avoid tiny repetitive patterns, dense text, micro-details, random scratches, and noisy decals.
+- Avoid baked shadows, strong ambient occlusion, rim lighting, colored lighting, dramatic highlights, and strong cast shadows.
+- Use soft, broad, neutral studio illumination so visible colors remain close to true material colors.
+
+【Background】
+- Pure white to very light neutral-gray seamless studio background.
+- No environment, ground texture, scenery, text, title, logo, watermark, border, or UI.
+- Only a very subtle soft contact shadow directly beneath the object is allowed.
+
+Final result: a clean, complete, connected, FDM-friendly single-object 3D product render suitable for Image-to-Mesh and downstream UV/PBR processing.
+Output the image directly.
